@@ -2,7 +2,7 @@ require('./demo.css')
 
 var React = require('react')
 var ReactDOM = require('react-dom')
-var ReactPivot = require('..')
+var ReactPivot = require('../index.jsx')
 
 var gh = require('./gh.jsx')
 var data = require('./data.json')
@@ -69,7 +69,7 @@ var Demo = React.createClass({
         </p>
 
         <p>
-          Muggles will love you.
+	  Muggles will love you.
         </p>
 
         <p>

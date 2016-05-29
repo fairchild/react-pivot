@@ -1,3 +1,5 @@
+require('./demo.css')
+
 var React = require('react')
 var Emitter = require('wildemitter')
 var ReactPivot = require('../load')
